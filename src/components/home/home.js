@@ -6,7 +6,7 @@ export default function Home() {
   <div >
     <h1 style={{display:'flex', justifyContent:'center'}}>Welcome to the SBFL Website</h1>
     <div style={{display:'flex', justifyContent:'center'}}><img style={{mixBlendMode:'darken'}} width={250} height={250}
-              src='/asset/sbfl.jpeg' alt="image" /></div>
+              src='/asset/sbfl.jpg' alt="image" /></div>
     <p style={{display:'flex', justifyContent:'center', marginBottom:'100px'}}> 
     SBFL is a prestigous fantasy football league created in 2015 from an Atlantic City hotel room. They employ the top of the line fantasy footballers in the world and Noonan
     </p>
