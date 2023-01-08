@@ -107,9 +107,10 @@ const handleKennyClose = () => {
 console.log({images})
   return (
     <div>
-      <h1>Meet The Teams</h1>
-      
-      <Card style={{ width: '18rem', backgroundColor:'lightgray' }}>
+      <h1 style={{textAlign:'center'}}>Meet The Teams</h1>
+      <br></br>
+      <div style={{textAlign:'center'}}>
+      <Card className="mx-auto"style={{ width: '20%', backgroundColor:'lightgray' }}>
         <Card.Title>Chesapeake Crawdads</Card.Title>
         <Card.Img src={shane} alt="image" />
         <Card.Body>
@@ -144,16 +145,37 @@ console.log({images})
           </div>
           </Modal.Body>
       </Modal>
-      <div>
-        <h4>Mexico City Hammers</h4>
-        <img style={{mixBlendMode:'darken'}}src={kj} alt="image" />
-        <a href="/kj" className="picture">
-          
-        </a>
-        <button>
-          Click Me!
-        </button>
-      </div>
+      <Card className="mx-auto"style={{ width: '20%', backgroundColor:'lightgray' }}>
+        <Card.Title>Mexico City Hammers</Card.Title>
+        <Card.Img src={kj} style={{mixBlendMode:'darken'}} alt="image" />
+        <Card.Body>
+        <Button variant="primary"
+      type="button"
+      onClick={handleKennyOpen}>Click for Info</Button>
+        </Card.Body>
+      </Card>
+      <Modal show={showKenny}
+      onHide={handleKennyClose}
+      fullScreen="md-down"
+      centered
+      >
+        <Modal.Header closeButton>
+          <Modal.Title>Mexico City Hammers</Modal.Title>
+        </Modal.Header>
+        <Modal.Body>
+          <div>
+            <div>
+            1st place finishes: 0
+            </div>
+            <div>
+              Records: 
+            </div>
+            <ul>
+              <li></li>
+            </ul> 
+          </div>
+          </Modal.Body>
+      </Modal>
       <div>
         <h4>Virginia Beach Ducks</h4>
         <a href="/" className="picture">
@@ -243,6 +265,7 @@ console.log({images})
         <button>
           Click Me!
         </button>
+      </div>
       </div>
     </div>
   );
