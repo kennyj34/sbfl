@@ -137,6 +137,7 @@ export default function Home() {
     </Carousel>
     </div>
     <div>
+      <h3>Sticker Bitches</h3>
     <Carousel variant='dark'>
       <Carousel.Item>
         <div style={{marginBottom:'100px'}}>
@@ -145,7 +146,7 @@ export default function Home() {
           
         </div>
         <div style={{display:'flex',justifyContent:'center'}}>
-          <img style={{mixBlendMode:'darken'}}src='./asset/Stingers.jpg' alt="image" />
+          <img style={{mixBlendMode:'darken'}}src='./asset/Stingers.png' alt="image" />
         </div>
         <Carousel.Caption>
           <div style={{marginTop:'50px'}}>
@@ -160,7 +161,7 @@ export default function Home() {
           <h5>2021 Sticker Bitch: Daniel Noonan</h5>
         </div>
         <div style={{display:'flex',justifyContent:'center'}}>
-        <img style={{mixBlendMode:'darken'}}src='./asset/Stingers.jpg' alt="image" />
+        <img style={{mixBlendMode:'darken'}}src='./asset/Stingers.png' alt="image" />
         </div>
         <Carousel.Caption>
         <div style={{marginTop:'50px'}}>
@@ -191,7 +192,7 @@ export default function Home() {
           
         </div>
         <div style={{display:'flex',justifyContent:'center'}}>
-          <img style={{mixBlendMode:'darken'}}src='./asset/Stingers.jpg' alt="image" />
+          <img style={{mixBlendMode:'darken'}}src='./asset/Stingers.png' alt="image" />
         </div>
         <Carousel.Caption>
           <div style={{marginTop:'50px'}}>
@@ -236,7 +237,7 @@ export default function Home() {
           <h5>2016 Sticker Bitch: Daniel Noonan</h5>
         </div>
         <div style={{display:'flex',justifyContent:'center'}}>
-        <img style={{mixBlendMode:'darken'}}src='./asset/Seamen.png' alt="image" />
+        <img style={{mixBlendMode:'darken'}}src='./asset/Stingers.png' alt="image" />
         </div>
         <Carousel.Caption>
         <div style={{marginTop:'50px'}}>
