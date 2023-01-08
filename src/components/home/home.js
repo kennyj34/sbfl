@@ -34,6 +34,9 @@ export default function Home() {
         <div style={{display:'flex', justifyContent:'center'}}>
           <h5>2021 Belt Bowl Winner: Ira Dogruyol</h5>
         </div>
+        <div style={{display:'flex',justifyContent:'center'}}>
+          <img style={{mixBlendMode:'darken'}}src='./asset/Snorks.jpg' alt="image" />
+        </div>
         <Carousel.Caption>
           <div>
             Team: Carolina Reapers
@@ -45,6 +48,9 @@ export default function Home() {
         <div style={{marginBottom:'100px'}}>
         <div style={{display:'flex', justifyContent:'center'}}>
           <h5>2020 Belt Bowl Winner: Matt Turowski</h5>
+        </div>
+        <div style={{display:'flex',justifyContent:'center'}}>
+          <img style={{mixBlendMode:'darken'}}src='./asset/Snorks.jpg' alt="image" />
         </div>
         <Carousel.Caption>
           <div>
