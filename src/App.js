@@ -17,13 +17,11 @@ function App() {
     <div>
       <Navbar bg="dark" variant="dark" expand="lg">
       <Container fluid>
-        <Navbar.Collapse id="basic-navbar-nav">
           <Nav className="me-auto">
             <Nav.Link href="/">Home</Nav.Link>
             <Nav.Link href="/team">Teams</Nav.Link>
             <Nav.Link href="/recordbook">Record Book</Nav.Link>
           </Nav>
-        </Navbar.Collapse>
       </Container>
     </Navbar>
       <BrowserRouter>

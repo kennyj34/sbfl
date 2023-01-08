@@ -137,6 +137,56 @@ export default function Home() {
     </Carousel>
     </div>
     <div>
+    <Carousel variant='dark'>
+      <Carousel.Item>
+        <div style={{marginBottom:'100px'}}>
+        <div style={{display:'flex',justifyContent:'center'}}>
+          <h5>2015 Sticker Bitch: </h5><br></br>
+          
+        </div>
+        <div style={{display:'flex',justifyContent:'center'}}>
+          <img style={{mixBlendMode:'darken'}}src='./asset/Snorks.jpg' alt="image" />
+        </div>
+        <Carousel.Caption>
+          <div style={{marginTop:'50px'}}>
+          Team: Drew
+          </div>
+        </Carousel.Caption>
+        </div>
+      </Carousel.Item>
+      <Carousel.Item>
+        <div style={{marginBottom:'100px'}}>
+        <div style={{display:'flex', justifyContent:'center'}}>
+          <h5>2021 Belt Bowl Winner: Ira Dogruyol</h5>
+        </div>
+        <div style={{display:'flex',justifyContent:'center'}}>
+        <img style={{mixBlendMode:'darken'}}src='./asset/Reapers.jpg' alt="image" />
+        </div>
+        <Carousel.Caption>
+          <div>
+            Team: Carolina Reapers
+          </div>
+        </Carousel.Caption>
+        </div>
+      </Carousel.Item>
+      <Carousel.Item>
+        <div style={{marginBottom:'100px'}}>
+        <div style={{display:'flex', justifyContent:'center'}}>
+          <h5>2020 Belt Bowl Winner: Matt Turowski</h5>
+        </div>
+        <div style={{display:'flex',justifyContent:'center'}}>
+          <img style={{mixBlendMode:'darken'}}src='./asset/Rats.png' alt="image" />
+        </div>
+        <Carousel.Caption>
+          <div>
+            Team: NYC Pizza Rats
+          </div>
+        </Carousel.Caption>
+        </div>
+      </Carousel.Item>
+      </Carousel>
+    </div>
+    <div>
       <h3>Podcast</h3>
       <iframe style={{borderRadius:'12px'}} src="https://open.spotify.com/embed/show/1pkZSwHy4Gn7bI2KhOJs3a?utm_source=generator&theme=0" width="100%" height="200" frameBorder="0" allowfullscreen="" allow="autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture" loading="lazy"></iframe>
     </div>
