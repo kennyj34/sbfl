@@ -50,7 +50,7 @@ const RecordBook = (props) => {
   </tr>
   <tr>
     <td style={{fontWeight:'bold'}}>2017</td>
-    <td style={mystyle}>Anthony Cafiero</td>
+    <td style={mystyle}>Casey Conwell</td>
     <td style={mystyle}></td>
     <td style={mystyle}></td>
     <td style={mystyle}></td>
