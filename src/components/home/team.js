@@ -73,6 +73,7 @@ var images = imageArray.map(function (Image) {
 const Teams = (props) => {
 
   const [showShane, setShowShane] = useState(false);
+  const [showKenny, setShowKenny] = useState(false);
 
   const shane = imageArray[0].src;
   const kj = imageArray[1].src;
@@ -94,6 +95,13 @@ setShowShane(false);
 const handleShaneOpen = () => {
   setShowShane(true);
 }
+const handleKennyClose = () => {
+  setShowKenny(false);
+  }
+  
+  const handleKennyOpen = () => {
+    setShowKenny(true);
+  }
 
   
 console.log({images})
@@ -102,7 +110,7 @@ console.log({images})
       <h1>Meet The Teams</h1>
       
       <Card style={{ width: '18rem', backgroundColor:'lightgray' }}>
-        <Card.Title>Crawdads</Card.Title>
+        <Card.Title>Chesapeake Crawdads</Card.Title>
         <Card.Img src={shane} alt="image" />
         <Card.Body>
         <Button variant="primary"
@@ -137,7 +145,7 @@ console.log({images})
           </Modal.Body>
       </Modal>
       <div>
-        <h4>Hammers</h4>
+        <h4>Mexico City Hammers</h4>
         <img style={{mixBlendMode:'darken'}}src={kj} alt="image" />
         <a href="/kj" className="picture">
           
@@ -147,7 +155,7 @@ console.log({images})
         </button>
       </div>
       <div>
-        <h4>Ducks</h4>
+        <h4>Virginia Beach Ducks</h4>
         <a href="/" className="picture">
           <img style={{mixBlendMode:'darken'}} src={chris} alt="image" />
         </a>
@@ -156,7 +164,7 @@ console.log({images})
         </button>
       </div>
       <div>
-        <h4>Fryers</h4>
+        <h4>Philadelphia Fryers</h4>
         <a href="/" className="picture">
           <img src={stocko} alt="image" />
         </a>
@@ -165,7 +173,7 @@ console.log({images})
         </button>
       </div>
       <div>
-        <h4>Rats</h4>
+        <h4>NYC Pizza Rats</h4>
         <a href="/" className="picture">
           <img style={{mixBlendMode:'darken'}} src={tur} alt="image" />
         </a>
@@ -174,7 +182,7 @@ console.log({images})
         </button>
       </div>
       <div>
-        <h4>Wolves</h4>
+        <h4>Wright County Wolves</h4>
         <a href="/" className="picture">
           <img src={cook} alt="image" />
         </a>
@@ -183,7 +191,7 @@ console.log({images})
         </button>
       </div>
       <div>
-        <h4>Seamen</h4>
+        <h4>Portsmouth Seamen</h4>
         <a href="/" className="picture">
           <img src={frank} alt="image" />
         </a>
@@ -192,7 +200,7 @@ console.log({images})
         </button>
       </div>
       <div>
-        <h4>Bombers</h4>
+        <h4>Bagdhad Bombers</h4>
         <a href="/" className="picture">
           <img src={ant} alt="image" />
         </a>
@@ -201,7 +209,7 @@ console.log({images})
         </button>
       </div>
       <div>
-        <h4>Snorks</h4>
+        <h4>Butte Snorkelers</h4>
         <a href="/" className="picture">
           <img style={{mixBlendMode:'darken'}} src={casey} alt="image" />
         </a>
@@ -210,7 +218,7 @@ console.log({images})
         </button>
       </div>
       <div>
-        <h4>Reapers</h4>
+        <h4>Carolina Reapers</h4>
         <a href="/" className="picture">
           <img src={ira} alt="image" />
         </a>
@@ -219,7 +227,7 @@ console.log({images})
         </button>
       </div>
       <div>
-        <h4>Raccoons</h4>
+        <h4>Kentucky Raccoons</h4>
         <a href="/" className="picture">
           <img style={{mixBlendMode:'darken'}} src={snow} alt="image" />
         </a>
@@ -228,7 +236,7 @@ console.log({images})
         </button>
       </div>
       <div>
-        <h4>Stingers</h4>
+        <h4>South Bend Stingers</h4>
         <a href="/" className="picture">
           <img src={noon} alt="image" />
         </a>
