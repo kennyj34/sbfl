@@ -141,15 +141,15 @@ export default function Home() {
       <Carousel.Item>
         <div style={{marginBottom:'100px'}}>
         <div style={{display:'flex',justifyContent:'center'}}>
-          <h5>2015 Sticker Bitch: </h5><br></br>
+          <h5>2022 Sticker Bitch: Daniel Noonan </h5><br></br>
           
         </div>
         <div style={{display:'flex',justifyContent:'center'}}>
-          <img style={{mixBlendMode:'darken'}}src='./asset/Snorks.jpg' alt="image" />
+          <img style={{mixBlendMode:'darken'}}src='./asset/Stingers.jpg' alt="image" />
         </div>
         <Carousel.Caption>
           <div style={{marginTop:'50px'}}>
-          Team: Drew
+          Team: South Bend Stingers
           </div>
         </Carousel.Caption>
         </div>
@@ -157,14 +157,14 @@ export default function Home() {
       <Carousel.Item>
         <div style={{marginBottom:'100px'}}>
         <div style={{display:'flex', justifyContent:'center'}}>
-          <h5>2021 Belt Bowl Winner: Ira Dogruyol</h5>
+          <h5>2021 Sticker Bitch: Daniel Noonan</h5>
         </div>
         <div style={{display:'flex',justifyContent:'center'}}>
-        <img style={{mixBlendMode:'darken'}}src='./asset/Reapers.jpg' alt="image" />
+        <img style={{mixBlendMode:'darken'}}src='./asset/Stingers.jpg' alt="image" />
         </div>
         <Carousel.Caption>
-          <div>
-            Team: Carolina Reapers
+        <div style={{marginTop:'50px'}}>
+          Team: South Bend Stingers
           </div>
         </Carousel.Caption>
         </div>
@@ -172,14 +172,90 @@ export default function Home() {
       <Carousel.Item>
         <div style={{marginBottom:'100px'}}>
         <div style={{display:'flex', justifyContent:'center'}}>
-          <h5>2020 Belt Bowl Winner: Matt Turowski</h5>
+          <h5>2020 Sticker Bitch: Frank Avenoso, Jr</h5>
         </div>
         <div style={{display:'flex',justifyContent:'center'}}>
-          <img style={{mixBlendMode:'darken'}}src='./asset/Rats.png' alt="image" />
+          <img style={{mixBlendMode:'darken'}}src='./asset/Seamen.png' alt="image" />
         </div>
         <Carousel.Caption>
           <div>
-            Team: NYC Pizza Rats
+            Team: Portsmouth Seamen
+          </div>
+        </Carousel.Caption>
+        </div>
+      </Carousel.Item>
+      <Carousel.Item>
+        <div style={{marginBottom:'100px'}}>
+        <div style={{display:'flex',justifyContent:'center'}}>
+          <h5>2019 Sticker Bitch: Daniel Noonan </h5><br></br>
+          
+        </div>
+        <div style={{display:'flex',justifyContent:'center'}}>
+          <img style={{mixBlendMode:'darken'}}src='./asset/Stingers.jpg' alt="image" />
+        </div>
+        <Carousel.Caption>
+          <div style={{marginTop:'50px'}}>
+          Team: South Bend Stingers
+          </div>
+        </Carousel.Caption>
+        </div>
+      </Carousel.Item>
+      <Carousel.Item>
+        <div style={{marginBottom:'100px'}}>
+        <div style={{display:'flex', justifyContent:'center'}}>
+          <h5>2018 Sticker Bitch: Frank Avenoso, Jr</h5>
+        </div>
+        <div style={{display:'flex',justifyContent:'center'}}>
+        <img style={{mixBlendMode:'darken'}}src='./asset/Seamen.png' alt="image" />
+        </div>
+        <Carousel.Caption>
+        <div style={{marginTop:'50px'}}>
+          Team: Portsmouth Seamen
+          </div>
+        </Carousel.Caption>
+        </div>
+      </Carousel.Item>
+      <Carousel.Item>
+        <div style={{marginBottom:'100px'}}>
+        <div style={{display:'flex', justifyContent:'center'}}>
+          <h5>2017 Sticker Bitch: Kenny Jones</h5>
+        </div>
+        <div style={{display:'flex',justifyContent:'center'}}>
+          <img style={{mixBlendMode:'darken'}}src='./asset/Hammers.png' alt="image" />
+        </div>
+        <Carousel.Caption>
+          <div>
+            Team: Mexico City Hammers
+          </div>
+        </Carousel.Caption>
+        </div>
+      </Carousel.Item>
+      <Carousel.Item>
+        <div style={{marginBottom:'100px'}}>
+        <div style={{display:'flex', justifyContent:'center'}}>
+          <h5>2016 Sticker Bitch: Daniel Noonan</h5>
+        </div>
+        <div style={{display:'flex',justifyContent:'center'}}>
+        <img style={{mixBlendMode:'darken'}}src='./asset/Seamen.png' alt="image" />
+        </div>
+        <Carousel.Caption>
+        <div style={{marginTop:'50px'}}>
+          Team: Dynamite
+          </div>
+        </Carousel.Caption>
+        </div>
+      </Carousel.Item>
+      <Carousel.Item>
+        <div style={{marginBottom:'100px'}}>
+        <div style={{display:'flex', justifyContent:'center'}}>
+          <h5>2015 Sticker Bitch: Drew Schuerholz</h5>
+        </div>
+        <div style={{display:'flex',justifyContent:'center'}}>
+          <img style={{mixBlendMode:'darken'}}src='./asset/drew.jpg' alt="image" />
+        </div>
+        <Carousel.Caption>
+          <div>
+            Team: RIP John Snow
           </div>
         </Carousel.Caption>
         </div>
