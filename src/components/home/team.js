@@ -118,7 +118,23 @@ console.log({images})
         <Modal.Header closeButton>
           <Modal.Title>Crawdads</Modal.Title>
         </Modal.Header>
-        <Modal.Body>Hello</Modal.Body>
+        <Modal.Body>
+          <div>
+            <div>
+            1st place finishes: 0
+            </div>
+            <div>
+              Records: 
+            </div>
+            <ul>
+              <li>Most Weeks Survived (57)</li>
+              <li>Most 1st Round Byes (2)</li>
+              <li>Current Consecutive Playoffs Made (3)</li>
+              <li>Most Playoff Apperances (5)</li>
+              <li>Longest Postseason Losing Streak (3)</li>
+            </ul> 
+          </div>
+          </Modal.Body>
       </Modal>
       <div>
         <h4>Hammers</h4>

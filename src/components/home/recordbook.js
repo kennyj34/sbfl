@@ -15,7 +15,7 @@ const RecordBook = (props) => {
     border:'1px solid black'
   };
   return (
-<div>
+<div style={{display:'flex', justifyContent:'center'}}>
   <h1>SBFL Record Book</h1>
 <table style={mystyle}>
   <tr style={mystyle}>
@@ -51,62 +51,62 @@ const RecordBook = (props) => {
   <tr>
     <td style={{fontWeight:'bold'}}>2017</td>
     <td style={mystyle}>Casey Conwell</td>
-    <td style={mystyle}></td>
-    <td style={mystyle}></td>
-    <td style={mystyle}></td>
-    <td style={mystyle}></td>
-    <td style={mystyle}></td>
-    <td style={mystyle}></td>
+    <td style={mystyle}>John Snow</td>
+    <td style={mystyle}>Frank Avenoso, Jr</td>
+    <td style={mystyle}>Dan Noonan</td>
+    <td style={mystyle}>Frank Avenoso, Jr</td>
+    <td style={mystyle}>Kenny Jones</td>
+    <td style={mystyle}>Casey Conwell</td>
   </tr>
   <tr>
     <td style={{fontWeight:'bold'}}>2018</td>
-    <td style={mystyle}></td>
-    <td style={mystyle}></td>
-    <td style={mystyle}></td>
-    <td style={mystyle}></td>
-    <td style={mystyle}></td>
-    <td style={mystyle}></td>
-    <td style={mystyle}></td>
+    <td style={mystyle}>John Snow</td>
+    <td style={mystyle}>Kenny Jones</td>
+    <td style={mystyle}>Anthony Cafiero</td>
+    <td style={mystyle}>John Snow</td>
+    <td style={mystyle}>Shane Kiernan</td>
+    <td style={mystyle}>Frank Avenoso, Jr</td>
+    <td style={mystyle}>John Snow</td>
   </tr>
   <tr>
     <td style={{fontWeight:'bold'}}>2019</td>
-    <td style={mystyle}></td>
-    <td style={mystyle}></td>
-    <td style={mystyle}></td>
-    <td style={mystyle}></td>
-    <td style={mystyle}></td>
-    <td style={mystyle}></td>
-    <td style={mystyle}></td>
+    <td style={mystyle}>Matt Turowski</td>
+    <td style={mystyle}>Frank Avenoso, Jr</td>
+    <td style={mystyle}>Mike Stocko</td>
+    <td style={mystyle}>Kenny Jones</td>
+    <td style={mystyle}>Frank Avenoso, Jr</td>
+    <td style={mystyle}>Dan Noonan</td>
+    <td style={mystyle}>Kenny Jones</td>
   </tr>
   <tr>
     <td style={{fontWeight:'bold'}}>2020</td>
-    <td style={mystyle}></td>
-    <td style={mystyle}></td>
-    <td style={mystyle}></td>
-    <td style={mystyle}></td>
-    <td style={mystyle}></td>
-    <td style={mystyle}></td>
-    <td style={mystyle}></td>
+    <td style={mystyle}>Matt Turowski</td>
+    <td style={mystyle}>Mike Stocko</td>
+    <td style={mystyle}>Chris Kiernan</td>
+    <td style={mystyle}>Shane Kiernan</td>
+    <td style={mystyle}>Chris Kiernan</td>
+    <td style={mystyle}>Frank Avenoso, Jr</td>
+    <td style={mystyle}>Casey Conwell</td>
   </tr>
   <tr>
     <td style={{fontWeight:'bold'}}>2021</td>
-    <td style={mystyle}></td>
-    <td style={mystyle}></td>
-    <td style={mystyle}></td>
-    <td style={mystyle}></td>
-    <td style={mystyle}></td>
-    <td style={mystyle}></td>
-    <td style={mystyle}></td>
+    <td style={mystyle}>Ira Dogruyol</td>
+    <td style={mystyle}>Shane Kiernan</td>
+    <td style={mystyle}>Casey Conwell</td>
+    <td style={mystyle}>Casey Conwell</td>
+    <td style={mystyle}>Ira Dogruyol</td>
+    <td style={mystyle}>Dan Noonan</td>
+    <td style={mystyle}>Ira Dogruyol</td>
   </tr>
   <tr>
     <td style={{fontWeight:'bold'}}>2022</td>
-    <td style={mystyle}></td>
-    <td style={mystyle}></td>
-    <td style={mystyle}></td>
-    <td style={mystyle}></td>
-    <td style={mystyle}></td>
-    <td style={mystyle}></td>
-    <td style={mystyle}></td>
+    <td style={mystyle}>Casey Conwell</td>
+    <td style={mystyle}>Chris Kiernan</td>
+    <td style={mystyle}>Kenny Jones</td>
+    <td style={mystyle}>Kenny Jones</td>
+    <td style={mystyle}>Shane Kiernan</td>
+    <td style={mystyle}>Dan Noonan</td>
+    <td style={mystyle}>Shane Kiernan</td>
   </tr>
 </table>
 </div>
