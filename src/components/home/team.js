@@ -18,52 +18,52 @@ imageArray[1] = {
 imageArray[2] = {
   image01: new Image(),
   src: "/asset/Ducks.jpg",
-  imageCaption: "KJ"
+  imageCaption: "Chris"
 };
 imageArray[3] = {
   image01: new Image(),
   src: "/asset/Fryers.jpg",
-  imageCaption: "KJ"
+  imageCaption: "Stocko"
 };
 imageArray[4] = {
   image01: new Image(),
   src: "/asset/Raccoons.jpg",
-  imageCaption: "KJ"
+  imageCaption: "Snow"
 };
 imageArray[5] = {
   image01: new Image(),
   src: "/asset/Rats.png",
-  imageCaption: "KJ"
+  imageCaption: "Tur"
 };
 imageArray[6] = {
   image01: new Image(),
   src: "/asset/Reapers.jpg",
-  imageCaption: "KJ"
+  imageCaption: "Ira"
 };
 imageArray[7] = {
   image01: new Image(),
   src: "/asset/Snorks.jpg",
-  imageCaption: "KJ"
+  imageCaption: "Casey"
 };
 imageArray[8] = {
   image01: new Image(),
   src: "/asset/Bombers.jpg",
-  imageCaption: "KJ"
+  imageCaption: "Ant"
 };
 imageArray[9] = {
   image01: new Image(),
   src: "/asset/Stingers.png",
-  imageCaption: "KJ"
+  imageCaption: "Noon"
 };
 imageArray[10] = {
   image01: new Image(),
   src: "/asset/Seamen.png",
-  imageCaption: "KJ"
+  imageCaption: "Frank"
 };
 imageArray[11] = {
   image01: new Image(),
   src: "/asset/Wolves.jpg",
-  imageCaption: "KJ"
+  imageCaption: "Cook"
 };
 
 var images = imageArray.map(function (Image) {
