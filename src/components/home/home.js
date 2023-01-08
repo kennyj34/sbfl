@@ -35,7 +35,7 @@ export default function Home() {
           <h5>2021 Belt Bowl Winner: Ira Dogruyol</h5>
         </div>
         <div style={{display:'flex',justifyContent:'center'}}>
-          Test
+        <img style={{mixBlendMode:'darken'}}src='./asset/Reapers.jpg' alt="image" />
         </div>
         <Carousel.Caption>
           <div>
@@ -50,7 +50,7 @@ export default function Home() {
           <h5>2020 Belt Bowl Winner: Matt Turowski</h5>
         </div>
         <div style={{display:'flex',justifyContent:'center'}}>
-          <img style={{mixBlendMode:'darken'}}src='./asset/Snorks.jpg' alt="image" />
+          <img style={{mixBlendMode:'darken'}}src='./asset/Rats.png' alt="image" />
         </div>
         <Carousel.Caption>
           <div>
@@ -64,6 +64,9 @@ export default function Home() {
         <div style={{display:'flex', justifyContent:'center'}}>
           <h5>2019 Belt Bowl Winner: Matt Turowski</h5>
         </div>
+        <div style={{display:'flex',justifyContent:'center'}}>
+          <img style={{mixBlendMode:'darken'}}src='./asset/Rats.png' alt="image" />
+        </div>
         <Carousel.Caption>
           <div>
             Team: NYC Pizza Rats
@@ -75,6 +78,9 @@ export default function Home() {
         <div style={{marginBottom:'100px'}}>
         <div style={{display:'flex', justifyContent:'center'}}>
           <h5>2018 Belt Bowl Winner: John Snow</h5>
+        </div>
+        <div style={{display:'flex',justifyContent:'center'}}>
+          <img style={{mixBlendMode:'darken'}}src='./asset/Raccoons.jpg' alt="image" />
         </div>
         <Carousel.Caption>
           <div>
@@ -88,6 +94,9 @@ export default function Home() {
         <div style={{display:'flex', justifyContent:'center'}}>
           <h5>2017 Belt Bowl Winner: Casey Conwell</h5>
         </div>
+        <div style={{display:'flex',justifyContent:'center'}}>
+          <img style={{mixBlendMode:'darken'}}src='./asset/Snorks.jpg' alt="image" />
+        </div>
         <Carousel.Caption>
           <div>
             Team: Butte Snorks
@@ -100,6 +109,9 @@ export default function Home() {
         <div style={{display:'flex', justifyContent:'center'}}>
           <h5>2016 Belt Bowl Winner: Anthony Cafiero</h5>
         </div>
+        <div style={{display:'flex',justifyContent:'center'}}>
+          <img style={{mixBlendMode:'darken'}}src='./asset/Bombers.jpg' alt="image" />
+        </div>
         <Carousel.Caption>
           <div>
             Team: Bagdhad Bombers
@@ -111,6 +123,9 @@ export default function Home() {
         <div style={{marginBottom:'100px'}}>
         <div style={{display:'flex', justifyContent:'center'}}>
           <h5>2015 Belt Bowl Winner: Casey Conwell</h5>
+        </div>
+        <div style={{display:'flex',justifyContent:'center'}}>
+          <img style={{mixBlendMode:'darken'}}src='./asset/Snorks.jpg' alt="image" />
         </div>
         <Carousel.Caption>
           <div>
