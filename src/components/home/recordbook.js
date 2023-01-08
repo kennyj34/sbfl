@@ -60,7 +60,7 @@ const RecordBook = (props) => {
   </tr>
   <tr>
     <td style={{fontWeight:'bold'}}>2018</td>
-    <td style={mystyle}>Anthony Cafiero</td>
+    <td style={mystyle}></td>
     <td style={mystyle}></td>
     <td style={mystyle}></td>
     <td style={mystyle}></td>
@@ -70,7 +70,7 @@ const RecordBook = (props) => {
   </tr>
   <tr>
     <td style={{fontWeight:'bold'}}>2019</td>
-    <td style={mystyle}>Anthony Cafiero</td>
+    <td style={mystyle}></td>
     <td style={mystyle}></td>
     <td style={mystyle}></td>
     <td style={mystyle}></td>
@@ -80,7 +80,7 @@ const RecordBook = (props) => {
   </tr>
   <tr>
     <td style={{fontWeight:'bold'}}>2020</td>
-    <td style={mystyle}>Anthony Cafiero</td>
+    <td style={mystyle}></td>
     <td style={mystyle}></td>
     <td style={mystyle}></td>
     <td style={mystyle}></td>
@@ -90,7 +90,7 @@ const RecordBook = (props) => {
   </tr>
   <tr>
     <td style={{fontWeight:'bold'}}>2021</td>
-    <td style={mystyle}>Anthony Cafiero</td>
+    <td style={mystyle}></td>
     <td style={mystyle}></td>
     <td style={mystyle}></td>
     <td style={mystyle}></td>
@@ -100,7 +100,7 @@ const RecordBook = (props) => {
   </tr>
   <tr>
     <td style={{fontWeight:'bold'}}>2022</td>
-    <td style={mystyle}>Anthony Cafiero</td>
+    <td style={mystyle}></td>
     <td style={mystyle}></td>
     <td style={mystyle}></td>
     <td style={mystyle}></td>
