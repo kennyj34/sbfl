@@ -12,10 +12,12 @@ const RecordBook = (props) => {
     backgroundColor: "white",
     padding: "10px",
     fontFamily: "Arial",
-    border:'1px solid black'
+    border:'1px solid black',
+    marginLeft: 'auto',
+    marginRight: 'auto'
   };
   return (
-<div style={{display:'flex', justifyContent:'center'}}>
+<div style={{textAlign:'center'}}>
   <h1>SBFL Record Book</h1>
 <table style={mystyle}>
   <tr style={mystyle}>
