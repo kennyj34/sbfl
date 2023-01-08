@@ -21,6 +21,7 @@ function App() {
             <Nav.Link href="/">Home</Nav.Link>
             <Nav.Link href="/team">Teams</Nav.Link>
             <Nav.Link href="/recordbook">Record Book</Nav.Link>
+            <Nav.Link href="https://docs.google.com/spreadsheets/d/1mq9FQxZ6fRvTr_NMEuKgr0OAsAETxTJ3J-eTkoE37gY/edit#gid=0">Playoff Machine</Nav.Link>
           </Nav>
       </Container>
     </Navbar>
