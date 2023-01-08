@@ -7,7 +7,7 @@ import {Card, Modal, Button} from 'react-bootstrap';
 var imageArray = [];
 imageArray[0] = {
   image01: new Image(),
-  src: "./asset/Crawdads.png",
+  src: "/asset/Crawdads.png",
   imageCaption: "Shane"
 };
 imageArray[1] = {
@@ -17,52 +17,52 @@ imageArray[1] = {
 };
 imageArray[2] = {
   image01: new Image(),
-  src: "./asset/Ducks.jpg",
+  src: "/asset/Ducks.jpg",
   imageCaption: "KJ"
 };
 imageArray[3] = {
   image01: new Image(),
-  src: "./asset/Fryers.jpg",
+  src: "/asset/Fryers.jpg",
   imageCaption: "KJ"
 };
 imageArray[4] = {
   image01: new Image(),
-  src: "./asset/Raccoons.jpg",
+  src: "/asset/Raccoons.jpg",
   imageCaption: "KJ"
 };
 imageArray[5] = {
   image01: new Image(),
-  src: "./asset/Rats.png",
+  src: "/asset/Rats.png",
   imageCaption: "KJ"
 };
 imageArray[6] = {
   image01: new Image(),
-  src: "./asset/Reapers.jpg",
+  src: "/asset/Reapers.jpg",
   imageCaption: "KJ"
 };
 imageArray[7] = {
   image01: new Image(),
-  src: "./asset/Snorks.jpg",
+  src: "/asset/Snorks.jpg",
   imageCaption: "KJ"
 };
 imageArray[8] = {
   image01: new Image(),
-  src: "./asset/Bombers.jpg",
+  src: "/asset/Bombers.jpg",
   imageCaption: "KJ"
 };
 imageArray[9] = {
   image01: new Image(),
-  src: "./asset/Stingers.png",
+  src: "/asset/Stingers.png",
   imageCaption: "KJ"
 };
 imageArray[10] = {
   image01: new Image(),
-  src: "./asset/Seamen.png",
+  src: "/asset/Seamen.png",
   imageCaption: "KJ"
 };
 imageArray[11] = {
   image01: new Image(),
-  src: "./asset/Wolves.jpg",
+  src: "/asset/Wolves.jpg",
   imageCaption: "KJ"
 };
 
