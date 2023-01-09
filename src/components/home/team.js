@@ -110,7 +110,7 @@ console.log({images})
       <h1 style={{textAlign:'center'}}>Meet The Teams</h1>
       <br></br>
       <div style={{textAlign:'center'}}>
-      <Card className="mx-auto"style={{ width: '20%', backgroundColor:'lightgray' }}>
+      <Card className="mx-auto"style={{ width: '18rem', backgroundColor:'lightgray' }}>
         <Card.Title>Chesapeake Crawdads</Card.Title>
         <Card.Img src={shane} alt="image" />
         <Card.Body>
@@ -145,7 +145,7 @@ console.log({images})
           </div>
           </Modal.Body>
       </Modal>
-      <Card className="mx-auto"style={{ width: '20%', backgroundColor:'lightgray' }}>
+      <Card className="mx-auto"style={{ width: '18rem', backgroundColor:'lightgray' }}>
         <Card.Title>Mexico City Hammers</Card.Title>
         <Card.Img src={kj} style={{mixBlendMode:'darken'}} alt="image" />
         <Card.Body>

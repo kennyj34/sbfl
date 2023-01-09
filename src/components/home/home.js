@@ -1,5 +1,6 @@
 import React from 'react';
 import Carousel from 'react-bootstrap/Carousel';
+import {Card, Modal, Button} from 'react-bootstrap';
 
 export default function Home() {
   return (
@@ -10,8 +11,9 @@ export default function Home() {
     <p style={{display:'flex', justifyContent:'center', marginBottom:'100px'}}> 
     SBFL is a prestigous fantasy football league created in 2015 from an Atlantic City hotel room. They employ the top of the line fantasy footballers in the world and Noonan
     </p>
-    <div>
-      <h3>Belt Bowl Winners: </h3>
+    <Card border="primary"className='mx-auto'style={{width:'90%'}}>
+      <Card.Header><h2>Belt Bowl Winners:</h2> </Card.Header>
+      <Card.Body>
     <Carousel variant='dark'>
       <Carousel.Item>
         <div style={{marginBottom:'100px'}}>
@@ -135,9 +137,12 @@ export default function Home() {
         </div>
       </Carousel.Item>
     </Carousel>
-    </div>
-    <div>
-      <h3>Sticker Bitches</h3>
+    </Card.Body>
+    </Card>
+    <div className="mt-2">
+    <Card className="mx-auto"style={{width:'90%'}}>
+      <Card.Header><h3>Sticker Bitches</h3></Card.Header>
+      <Card.Body>
     <Carousel variant='dark'>
       <Carousel.Item>
         <div style={{marginBottom:'100px'}}>
@@ -262,6 +267,8 @@ export default function Home() {
         </div>
       </Carousel.Item>
       </Carousel>
+      </Card.Body>
+    </Card>
     </div>
     <div>
       <h3>Podcast</h3>
