@@ -15,7 +15,7 @@ import { BrowserRouter, Route,Routes } from 'react-router-dom';
 function App() {
   return (
     <div>
-      <Navbar  bg="primary" variant="dark" >
+      <Navbar  bg="primary" variant="dark" expand="lg">
       <Container fluid>
           <Nav >
             <Nav.Link href="/"><h4><strong>Home</strong></h4></Nav.Link>
