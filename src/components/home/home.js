@@ -1,18 +1,28 @@
 import React from 'react';
 import Carousel from 'react-bootstrap/Carousel';
-import {Card, Modal, Button} from 'react-bootstrap';
+import {Card, Modal, Button,Tab,Tabs} from 'react-bootstrap';
+
 
 export default function Home() {
   return (
-  <div >
+    <div>
+      <Card className="mx-auto"style={{width:'90%'}}>
+    <Tabs
+      defaultActiveKey="home"
+      id="uncontrolled-tab-example"
+      className="mb-3"
+    >
+  <Tab eventKey="home" title="Home">
     <h1 style={{display:'flex', justifyContent:'center'}}>Welcome to the SBFL Website</h1>
     <div style={{display:'flex', justifyContent:'center'}}><img style={{mixBlendMode:'darken'}} width={250} height={250}
               src='/asset/sbfl.jpg' alt="image" /></div>
     <p style={{display:'flex', justifyContent:'center', marginBottom:'100px'}}> 
     SBFL is a prestigous fantasy football league created in 2015 from an Atlantic City hotel room. They employ the top of the line fantasy footballers in the world and Noonan
     </p>
-    <Card border="primary"className='mx-auto'style={{width:'90%'}}>
-      <Card.Header><h2>Belt Bowl Winners:</h2> </Card.Header>
+    </Tab>
+    <Tab eventKey="belt" title="Belt Bowl">
+    <Card border="primary"className='mx-auto mb-2'style={{width:'90%'}}>
+      <Card.Header><h3>Belt Bowl Winners:</h3> </Card.Header>
       <Card.Body>
     <Carousel variant='dark'>
       <Carousel.Item>
@@ -139,8 +149,10 @@ export default function Home() {
     </Carousel>
     </Card.Body>
     </Card>
-    <div className="mt-2">
-    <Card className="mx-auto"style={{width:'90%'}}>
+    </Tab>
+    <Tab eventKey="sb" title="Sticker Bitch">
+    <div>
+    <Card border="primary" className="mx-auto mb-2"style={{width:'90%'}}>
       <Card.Header><h3>Sticker Bitches</h3></Card.Header>
       <Card.Body>
     <Carousel variant='dark'>
@@ -270,10 +282,18 @@ export default function Home() {
       </Card.Body>
     </Card>
     </div>
-    <div>
-      <h3>Podcast</h3>
-      <iframe style={{borderRadius:'12px'}} src="https://open.spotify.com/embed/show/1pkZSwHy4Gn7bI2KhOJs3a?utm_source=generator&theme=0" width="100%" height="200" frameBorder="0" allowfullscreen="" allow="autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture" loading="lazy"></iframe>
+    </Tab>
+    </Tabs>
+    </Card>
+    <div className="mt-2">
+      <Card border="primary" className="mx-auto" style={{width:'90%'}}>
+      <Card.Header><h3>Podcast</h3></Card.Header>
+      <Card.Body>
+        <iframe style={{borderRadius:'12px'}} src="https://open.spotify.com/embed/show/1pkZSwHy4Gn7bI2KhOJs3a?utm_source=generator&theme=0" width="100%" height="200" frameBorder="0" allowfullscreen="" allow="autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture" loading="lazy"></iframe>
+      </Card.Body>
+      </Card>
     </div>
-  </div>
+    </div>
+  
   );
 }
