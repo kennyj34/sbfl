@@ -6,8 +6,6 @@ import Navbar from 'react-bootstrap/Navbar';
 import Home from './components/home/home';
 import Teams from './components/home/team';
 import Previous from './components/home/previousTeams';
-import KJ from './components/home/kj';
-import Stocko from './components/home/stocko';
 import RecordBook from './components/home/recordbook';
 import { BrowserRouter, Route,Routes } from 'react-router-dom'; 
 
@@ -31,8 +29,6 @@ function App() {
         <Route exact path="/" element={<Home/>} />
         <Route exact path="/team" element={<Teams/>} />
         <Route exact path="/previousTeams" element={<Previous/>} />
-        <Route exact path="/kj" element={<KJ/>} />
-        <Route exact path="/stocko" element={<Stocko/>} />
         <Route exact path="/recordbook" element={<RecordBook/>} />
 
       </Routes>
